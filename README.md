@@ -1,5 +1,7 @@
 ## React Native Bluetooth Serial
 
+Just fored, lots of places would be optimised later
+
 React Native version of [BluetoothSerial](https://github.com/don/BluetoothSerial) plugin. For both
 android and ios
 
@@ -104,17 +106,7 @@ Currently provided events are:
 - `bluetoothDisabled` - when user disabled bt
 - `connectionSuccess` - when app connected to device
 - `connectionLost` - when app lost connection to device (fired with `bluetoothDisabled`)
+- `read` - when got message
+- `data` - when got raw byte data
 
 You can use `BluetoothSerial.removeListener(eventName, callback)` to stop listening to an event
-
-## TODO
-- Make services configurable on ios
-
-
-
-
-
-
-
-
-
