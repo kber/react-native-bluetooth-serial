@@ -37,3 +37,6 @@ npm-debug.log
 .vscode
 jsconfig.json
 *.sublime-workspace
+android/.classpath
+android/.project
+android/.settings
